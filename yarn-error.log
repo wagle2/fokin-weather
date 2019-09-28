@@ -1,5 +1,5 @@
 Arguments: 
-  /usr/local/bin/node /usr/local/Cellar/yarn/1.17.3/libexec/bin/yarn.js add expo-linear-gradient@~7.0.0
+  /usr/local/bin/node /usr/local/Cellar/yarn/1.17.3/libexec/bin/yarn.js add ws
 
 PATH: 
   /usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Library/Apple/usr/bin:/Library/Apple/bin:/anaconda3/bin
@@ -14,7 +14,7 @@ Platform:
   darwin x64
 
 Trace: 
-  Error: EACCES: permission denied, unlink '/Users/wagle/Documents/GitHub/fokin-weather/node_modules/@babel/code-frame/LICENSE'
+  Error: EACCES: permission denied, mkdir '/Users/wagle/Documents/GitHub/fokin-weather/node_modules/@react-native-community/cli/node_modules/ws'
 
 npm manifest: 
   {
@@ -30,6 +30,7 @@ npm manifest:
       "axios": "^0.19.0",
       "eslint": "^6.4.0",
       "expo": "^35.0.0",
+      "expo-linear-gradient": "~7.0.0",
       "expo-location": "~7.0.0",
       "react": "16.8.3",
       "react-dom": "16.8.3",
